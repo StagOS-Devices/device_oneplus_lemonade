@@ -54,5 +54,9 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 PRODUCT_PACKAGES += \
     OnePlus9WifiOverlay
 
+# SetupWizard Overlay
+PRODUCT_PACKAGES += \
+    PixelSetupWizardStringsOverlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/lemonade/lemonade-vendor.mk)
