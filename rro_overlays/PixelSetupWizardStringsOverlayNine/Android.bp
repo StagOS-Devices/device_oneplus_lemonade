@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "PixelSetupWizardStringsOverlay",
+    name: "PixelSetupWizardStringsOverlayNine",
     product_specific: true,
 }
