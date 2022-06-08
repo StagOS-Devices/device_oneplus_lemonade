@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
+    OPlus9WifiOverlay \
     PixelSetupWizard9PStringsOverlay
 
 # Soong namespaces
