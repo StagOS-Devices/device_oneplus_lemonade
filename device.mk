@@ -24,8 +24,12 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+# DEVICE_PACKAGE_OVERLAYS += \
+#   $(LOCAL_PATH)/overlay-lineage
+
+
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := lemonade,OnePlus9
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
